@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="../css/style.css"></link>
+  </head>
+  <body>
+<h1 id="title">The Attempt</h1>
+<p id="description">This is an attempt to build a functional and (perhaps) beautiful app where you can submit some useful information.</p>
+<form id="survey-form">
+  <fieldset>
+<label for="name" id="name-label">Name: <input id="name" type="text" placeholder="Insert your name here" required>
+  </input></label><br>
+<label for="email" id="email-label">Email: <input id="email" type="email" placeholder="Insert your email here" required></input></label><br>
+<label for="number" id="number-label">Age: <input id="number" type="number" min="18" max="120" placeholder="Choose one"></input></label></fieldset>
+<fieldset class="distance">
+<label for="dropdown" class="aligned">Type of account: </label>
+<select id="dropdown">
+      <option value="">Select one</option>
+      <option value="1">Personal</option>
+      <option value="2">Business</option>
+      </select></fieldset>
+      <fieldset>
+        <legend>Where are you located?</legend>
+      <label for="UK">
+      <input id="UK" type="radio" name="location" class="inline" value="UK" checked>UK</input></label>
+      <label for="abroad"><input id="abroad" type="radio" name="location" class="inline" value="abroad">abroad</input></label></fieldset>
+      <fieldset>
+   <label for="occupation">Please select your current occupation status:</label><br>
+   <label for="occupation1">
+     <input class="checkbox" type="checkbox" id="occupation1" name="occupation1" value="Student">I am a student</input></label>
+     <label for="occupation2">
+       <input class="checkbox" type="checkbox" id="occupation2" name="occupation2" value="Employed">I am employed</input></label>
+       <label for="occupation3">
+         <input class="checkbox" type="checkbox" id="occupation3" name="occupation3" value="Unemployed">I am unemployed</input></label>
+         </fieldset>
+         <fieldset>
+<label for="additional-information">Please tell us how you think our services will help you:</label>
+  <textarea id="additional-information" name="additional-information" rows="4" cols="45" placeholder="The Attempt will improve my business by..."></textarea>
+</fieldset>
+<input type="submit" id="submit" value="Submit"></input>
+  </form>
+  </body>
+  </html>
