@@ -1,0 +1,192 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>10 Math Concepts for Programmers</title>
+<main id="main-doc">
+  <nav id="navbar">
+    <header>10 Math Concepts for Programmers</header>
+    <a class="nav-link" href="#Boolean_Algebra">Boolean Algebra</a>
+    <a class="nav-link" href="#Numeral_Systems">Numeral Systems</a>
+    <a class="nav-link" href="#Floating_Point">Floating Point</a>
+    <a class="nav-link" href="#Logarithms">Logarithms</a>
+    <a class="nav-link" href="#Set_Theory">Set Theory</a>
+    <a class="nav-link" href="#Combinatorics">Combinatorics</a>
+    <a class="nav-link" href="#Graph_Theory">Graph Theory</a>
+    <a class="nav-link" href="#Complexity_Theory">Complexity Theory</a>
+    <a class="nav-link" href="#Statistics">Statistics</a>
+    <a class="nav-link" href="#Linear_Algebra">Linear Algebra</a>
+    </nav>
+<section class="main-section" id="Boolean_Algebra">
+    <header>Boolean Algebra</header>
+    <p>Boolean is a data type/binary variable that has one of the two possible values, for example <code>0 (false)</code> or <code>1 (true)</code>.</p>
+      
+<p>The boolean data type is backed by boolean algebra, in which the variable's values are known as the truth values, true and false. When working with boolean algebra, there are three operators that you can use:</p>
+  <ul>
+<li>Conjunction or AND operation</li>
+<li>Disjunction or OR operation</li>
+<li>Negation OR Not operation</li>
+</ul>
+        </section>
+<section class="main-section" id="Numeral_Systems">
+  <header>Numeral Systems</header>
+  <p>Computers understand numbers, and this is why they need a numeral system. A numeral system is known as a writing system used to express numbers. For example, you have these four most common number system types:</p>
+  <ol>
+    <li>Decimal number system (Base- 10)</li>
+    <li>Binary number system (Base- 2)</li>
+    <li>Octal number system (Base-8)</li>
+    <li>Hexadecimal number system (Base- 16)</li>
+    </ol>
+     <p>Computers work off a Base- 2 numeral system, where the possible digits are <code>0</code> and <code>1</code>. Base64 is also used to encode binary data in a string format.
+    </ol>
+      </section>
+<section class="main-section" id="Floating_Point">
+    <header>Floating Point</header>
+  <p>More on learning about numbers, we have floating point. A floating point is a variable data type which represents real numbers as an approximation. A floating-point number is a number in which the position of the decimal point can move around or "float" instead of being in a fixed position. This allows developers to make a trade-off between range and precision.</p>
+  <p>But why an approximation? Computers only have a limited amount of space, either 32 bits (single precision) or 64 bits (double precision). 64 bit is the default for programming languages such as Python and JavaScript. An example of floating-point numbers are <code>1.29</code>, <code>87.565</code>, and <code>9038724.2</code>. It can either be a positive or negative whole number with a decimal point.</p>
+    </section>
+<section class="main-section" id="Logarithms">
+    <header>Logarithms</header>
+  <p>Also known as log is a mathematical concept that uses the inverse of exponentials to answer the question. So why is logarithms important to programmers> Because it simplifies complex mathematical calculations. For example, <code>1000 = 10^4</code> can also be written as <code>4 = log101000</code>.</p>
+<p>The base number is a mathematical object that needs to be multiplied by itself. The exponent is a number that identifies how many times a base number needs to be multiplied by itself. Therefore, a logarithm is an exponent which indicates to what power a base must be raised to produce a given number.</p>
+<p>When log uses Base- 2, it is a binary logarithm, and if it’s Base- 10, it is a common logarithm.</p>
+        </section>
+<section class="main-section" id="Set_Theory">
+    <header>Set Theory</header>
+  <p>A set is an unordered unique collection of values, which do not need to have any relation to one another. They can only contain unique items, and cannot contain the same item twice or more.</p>
+  <p>For example excel files or a database contain tables which have a set of unique rows. This is a type of discrete math as these structures can have a finite number of elements. The aim of set theory is to understand the collections of values, and the relations between one another. This is typically used for data analysts, SQL experts and data scientists.</p>
+  <p>You can do this by using:</p>
+    <ul>
+    <li>Inner join or intersection - Returns a set containing elements that are present in both sets</li>
+    <li>Outer join or union - Returns elements from both sets</li>
+    <li>Union all – Same as the outer join operator, but it will contain all duplicates</li>
+    <li>Except or Minus – A Minus B is a set containing elements from the set A that are not elements of the set B</li>
+    </ul>
+          </section>
+<section class="main-section" id="Combinatorics">
+    <header>Combinatorics</header>
+  <p>Combinatorics is the art of counting things in order to obtain results, and understand certain properties of finite structures through patterns. Programming is all about solving problems, and combinatorics is the way we can arrange objects to study these finite discrete structures.</p>
+  <p>The Combinatorics formula is a combination of Permutation and Combination.</p>
+    <ul>
+    <li>Permutation is the act of arranging a set into some order or sequence</li>
+    <li>Combination is the selection of values of the set where the order is not taken into consideration.</li>
+    </ul>
+      </section>
+  <section class="main-section" id="Graph_Theory">
+    <header>Graph Theory</header>
+    <p>As you already know, a graph is a visual representation of a set of values and these values can be connected. When it comes to data, these values are connected due to variables - which in graph theory are known as links.</p>
+    <p>Graph Theory is the study of graphs concerning the relationship among edges and vertices of connected sets of points. This allows us to create a  pairwise relationship between objects using the vertices, also known as nodes that are connected by the edges, known as the lines. A graph is represented as a pair G(V, E), where V represents the finite set vertices and E represents the finite set edges.</p>
+    
+    </section>
+<section class="main-section" id="Complexity_Theory">
+  <header>Complexity Theory</header>
+  <p>Complexity theory is the study of the amount of time and memory it takes for an algorithm to run as a function of the input size. There are two types of complexities:</p>
+  <ul>
+    <li>Space complexity - the amount of memory an algorithm needs to run.</li>
+    <li>Time complexity - the amount of time an algorithm needs to run.</li>
+    </ul>
+    <p>More people are concerned about time complexity as we can reuse the memory of an algorithm. When it comes to time complexity, the best way to measure it is by considering the number of operations the algorithm performs. Algorithms are built using if-statements and loops, therefore to reduce time spent you want to use code that has as few if-statements and loops as possible.</p>
+    <p>Complexity theory for algorithms uses the big-o notation to help describe and provide a better understanding of the limiting behavior of an algorithm. It is used to classify algorithms by how they respond to changes in input size.</p>
+    
+    </section>
+    <section class="main-section" id="Statistics">
+      <header>Statistics</header>
+      <p>Ahhh statistics. If you’re looking to get into artificial intelligence, you need to know about statistics. AI and machine learning are nice names used for statistics. Statistical programming is used to solve data-heavy problems, such as ChatGPT. ChatGPT’s response is all based on the probability of matching the prompt provided by the user.</p>
+      <p>You will need to learn more than mean, median and mode when it comes to statistical programming. You will need to learn about bias, covariance, and bayes theorem. As a programmer, you will be set tasks and realize you will be asking is this a linear regression problem or a logistic regression problem. Understanding the difference between the two will help you identify what type of task you have at hand.</p>
+      
+      </section>
+      <section class="main-section" id="Linear_Algebra">
+        <header>Linear Algebra</header>
+        <p>You may have looked at linear algebra in school - or you may have not. Linear algebra is very important and is widely used in computer graphics and deep learning. In order to grasp linear algebra, you will need to understand these three words:</p>
+        <ul>
+          <li>Scalar - a single numerical value</li>
+          <li>Vector - a list of numbers or 1 dimensional array</li>
+          <li>Matrix - a grid or 2 dimensional array</li>
+          </ul>
+          <p>Vectors can represent points and the direction in a 3D space, whereas matrices can represent transformations that happen to these vectors.</p>
+      
+<p class="source">Source: <a href="https://www.kdnuggets.com/10-math-concepts-for-programmers">KD Nuggets</a></p>
+</main>
+</link>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#navbar {
+  position: fixed;
+  left: 5px;
+  padding: 10px;
+    }
+
+  #navbar a {
+    font-size: 1em;
+    font-family: helvetica, sans-serif;
+    display: block;
+    margin-bottom: 7px;
+    border-bottom: 2px solid 
+      }
+
+      #main-doc {
+        display: block;
+margin-left: 200px;
+      }
+
+      #navbar header {
+        font-size: 1.3em;
+        max-width: 130px;
+        margin-bottom: 12px;
+        font-weight: 700;
+      }
+
+header:not(#navbar header) {
+font-size: 1.3em;
+font-weight: bold;
+border-bottom: solid 2px
+      }
+
+      p {
+        font-size: 1.1em;
+      }
+
+      li {
+        font-size: 1.1em;
+      }
+      
+a:link {
+color: inherit;
+text-decoration: none;
+}
+
+a:hover {
+        color: #13948b;
+        background-color: inherit;
+      }
+      @media (max-height: 400px) {
+.main-section {
+font-size: 0.8em;
+        }
+        #navbar a {
+          font-size: 0.7em;
+        }
+        #navbar header {
+          font-size: 0.8em;
+        }
+      }
+
+section {
+  padding-bottom: 20px;
+}
+
+.source {
+  padding-top: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+** end of undefined **
+
