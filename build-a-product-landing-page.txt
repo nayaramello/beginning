@@ -1,0 +1,179 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>Shop Easy</title>
+  <main class="content">
+     <header id="header">
+      <nav id="nav-bar">
+        <img src="https://rb.gy/7wupui" alt="shop easy logo" loading="lazy" id="header-img">
+      <a class="nav-link" href="#about-us">About Us</a>
+      <a class="nav-link" href="#course1">Intermediate JS</a>
+        <a class="nav-link" href="#course2">Advanced JS</a>
+          </nav>
+                   </header>
+    <section id="about-us">
+      <h1>Welcome to Shop Easy!</h1>
+    <p>Shop Easy is a simple and reliable platform where you can find the latest releases in the EdTech Market to improve your technological skills.</p>
+    <p>See below the most recent course in Java Script launched for free on YouTube, with a course load of 12 hours!</p>
+<iframe id="video" width="420" height="315"
+src="https://www.youtube.com/watch?v=lfmg-EJ8gm4&ab_channel=BroCode">
+</iframe>
+</section>
+  <section class="contact">
+  <h1>I want to learn it!</h1>
+  <p class="contact-info">Please leave your email for contact so we can send you all relevant information about the courses presented here.</p>
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+  <input id="email" type="email" name="email" placeholder="Your email here"></input>
+<input id="submit" type="submit"></input>
+</form>
+</section>
+<section class="paid-courses">
+  <h2>Enhance your knowledge with our additional courses:</h2>
+  <h3 id="course1">Intermediate JS</h3>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRQSlJscqZg_x5HSmDe_8C7tSm2zuBRPP91Q&usqp=CAU">
+    <h3 id="course2">Advanced JS</h3>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT16wx94Zl_bzCCv9n3ShqHx2tFsZ3WU7Uvdw&usqp=CAU">
+</section>
+</main>
+</link>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 6px;
+    }
+.nav-link {
+float: left;
+text-decoration: none;
+color: #222;
+font-family: Arial Narrow, sans-serif;
+font-size: 25px;
+padding: 35px;
+text-align: justify;
+  }
+
+  .nav-link:hover {
+   background-color: #fcba03;
+  }
+
+  #about-us {
+    grid-area: about;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    text-align: justify;
+    padding-top: 50px;
+  }
+
+  #header-img {
+    float: left;
+    width: 120px;
+    height: 100px;
+  }
+
+  h2 {
+    padding-top: 15px;
+      }
+
+  header {
+    grid-area: topbar;
+  }
+
+  #video {
+    margin: 50px 300px;
+    border: 3px solid black;
+      }
+
+  .contact {
+    grid-area: contact;
+    padding-top: 0;
+  }
+
+  .paid-courses {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 350px;
+    padding-left: 50px;
+    padding-top: 50px;
+      }
+
+  #course1 {
+    grid-area: course1;
+    padding-top: 10px;
+  }
+  #course2 {
+    grid-area: course2;
+    padding-top: 10px;
+  }
+
+#email {
+  margin-top: 9px;
+  width: 45%;
+  font-size: 16px;
+  padding: 5px;
+}
+
+  #submit {
+    padding: 9px;
+    margin-left: 10px;
+    background-color: fcba03;
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-weight: bold;
+  }
+
+.contact-info {
+font-size: 20px;
+font-family: Helvetica, sans-serif;
+text-align: justify;
+}
+
+.content {
+  display: grid;
+  grid-template-areas: 
+  'topbar topbar topbar'
+  'about about course1'
+  'contact contact course2';
+    grid-gap: 50px;
+    padding: 10px;
+  }
+    
+  @media only screen and (max-width: 600px) {
+ .content {
+   display: block;
+  
+ }
+ #nav-bar {
+   display: flex;
+   flex-direction: row;
+   position: fixed;
+align-items: center;
+width: 600px;
+ }
+ .nav-link {
+   padding: 9px;
+ }
+#video {
+  margin: 0;
+}
+.paid-courses {
+  padding: 0;
+}
+#about-us {
+  padding-top: 100px;
+}
+ }
+
+** end of undefined **
+
